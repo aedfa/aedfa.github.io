@@ -4,7 +4,7 @@ body {
 
 canvas {
   display: block;
-  vertical-align: bottom;
+  vertical-align: center;
 }
 
 #particles-js {
@@ -19,7 +19,7 @@ canvas {
 }
 
 .container {
-  margin-top: 11%;
+  margin-top: 5%;
   width: 34em;
   padding-top: 1em;
   padding-bottom: 0em;
@@ -37,6 +37,7 @@ canvas {
 #me h1 {
   color: #eaeaea;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 #me img {
