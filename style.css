@@ -1,9 +1,12 @@
 body {
   margin: 0;
-   
+
 }
 
-
+@font-face {
+    font-family: lato1;
+    src: url(lato.ttf);
+} 
 canvas {
   display: block;
   vertical-align: center;
@@ -14,7 +17,7 @@ canvas {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #bc7510;
+  background-color: #965d1f;
   background-size: cover;
   background-position: 50% 50%;
   z-index: -1;
@@ -28,7 +31,7 @@ canvas {
   background-color: rgba(25, 25, 25, 0.6);
   background-opacity: 0.5;
   border: 0.5px solid white;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 #me{
@@ -42,7 +45,7 @@ canvas {
 #me h1 {
   color: #eaeaea;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
- 
+  font-family:Century Gothic;
   
  }
 
@@ -56,15 +59,5 @@ canvas {
   border-radius: 0%;
 }
 
-#about li {
-  list-style-type: none;
-  margin-bottom: 0.5em;
-}
 
-#about li:last-child {
-  margin-bottom: 0em;
-}
 
-#about img:hover {
-    transform: scale(1.2);
-}
