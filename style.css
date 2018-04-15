@@ -1,12 +1,9 @@
 body {
   margin: 0;
-    font-family: lato;
+   
 }
 
-@font-face {
-    font-family: "lato";
-    src: url(lato.ttf);
-}
+
 canvas {
   display: block;
   vertical-align: center;
@@ -37,7 +34,7 @@ canvas {
 #me{
   border-bottom: 1px solid white;
   margin-bottom: 2em;
-  font-family: lato;
+  
 }
 
 
@@ -45,9 +42,11 @@ canvas {
 #me h1 {
   color: #eaeaea;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-   font-family: lato;
+ 
+  
+ }
 
-}
+
 
 #me img {
   border: 1;
